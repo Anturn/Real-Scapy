@@ -1,0 +1,28 @@
+Every lab shall include a README file that describes the work. This description must:
+
+1.Identify what aspects of the work have been correctly implemented and what have not
+All of Part.1 Part.2 and Part.3 are implemented correctly and thoroughly
+
+2.Identify anyone with whom you have collaborated or discussed the lab
+I work and discuss the project with classmate, Jianjie Liu,especially for the regular expression part(NLP)
+
+3.Say approximately how many hours you have spent completing the lab
+1 + 2 + 4 = 7 hours
+
+4.Based on the IP addresses and from your analysis in part 1, are you really confident that Russians were behind the
+election security compromises?
+It is not easy in the cyber security world to really "attribute". However, if we just analyze from the IP address,not
+too many IPs are from Russia.
+
+5.Are the heuristics used in this lab to determine incidents "even that good"?
+No. Because there are many false positive and when the information becomes large, it takes long to find the useful
+one.
+
+6.If you have spare time in the future, what would you add to the program or do differently with regards to
+detecting incidents?
+In some scans(Nikto), it almost report every time and at the same time, it is really redundant to report each and
+every type of scan. I will improve the program that will just report the number of scans and type of scans but not
+the whole picture. User can delve deeper with other command if they want track further.
+
+
+

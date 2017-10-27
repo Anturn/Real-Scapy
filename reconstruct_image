@@ -1,0 +1,12 @@
+from scapy.all import *
+import binascii
+
+packets = rdpcap("secret.pcap")
+str = ''
+for packet in packets:
+    str = str + packet.load
+
+fp = open('1.jpeg', 'wb')
+fp.write(binascii.a2b_base64(str))
+fp.close()
+

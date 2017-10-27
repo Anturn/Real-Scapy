@@ -1,0 +1,11 @@
+import csv
+
+with open('JAR-16-20296A.csv', 'r') as file:
+    reader = csv.reader(file)
+    for row in reader:
+        if '.' in row[0]:
+            print(row[0].replace('[.]', '.')+' - '+ row[7].replace('This IP address is located in ', ''))
+
+
+
+
